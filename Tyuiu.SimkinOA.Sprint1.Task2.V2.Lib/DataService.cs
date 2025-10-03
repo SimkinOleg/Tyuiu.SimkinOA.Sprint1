@@ -10,7 +10,7 @@ namespace Tyuiu.SimkinOA.Sprint1.Task2.V2.Lib
     {
         public double ConvertAngleToRad(int value)
         {
-            double res = 3.14 / 180 * value;
+            double res = 3.1415926535 / 180 * value;
             return Math.Round(res,3);
         }
     }
