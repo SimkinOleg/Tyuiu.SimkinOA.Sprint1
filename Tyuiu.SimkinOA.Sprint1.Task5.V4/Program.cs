@@ -19,14 +19,13 @@ Console.WriteLine("*************************************************************
 Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ                                                         *");
 Console.WriteLine("***************************************************************************");
 
-double number, b;
+int number;
 Console.WriteLine("Введите количество секунд : ");
-number = double.Parse(Console.ReadLine());
+number = int.Parse(Console.ReadLine());
 
-Console.WriteLine("Введите второе число");
-b = double.Parse(Console.ReadLine());
 
-double result = ds.Calculate(number,b);
+
+int result = ds.SecondsToHours(number);
 Console.WriteLine("***************************************************************************");
 Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
 Console.WriteLine("***************************************************************************");

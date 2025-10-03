@@ -8,9 +8,8 @@ namespace Tyuiu.SimkinOA.Sprint1.Task5.V4.Test
         public void ValidExpression()
         {
             DataService ds = new DataService();
-            double a = 13257;
-            double b = 0;
-            var res = ds.Calculate(a, b);
+            int a = 13257;
+            var res = ds.SecondsToHours(a);
             Assert.AreEqual(res, 3);
         }
     }

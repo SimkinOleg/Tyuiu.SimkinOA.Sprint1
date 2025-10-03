@@ -1,14 +1,12 @@
 ﻿using tyuiu.cources.programming.interfaces.Sprint1;
 namespace Tyuiu.SimkinOA.Sprint1.Task5.V4.Lib
 {
-    public class DataService : ISprint1Task1V4
+    public class DataService : ISprint1Task5V4
 
     {
-        public double Calculate(double x, double y)
+        public int SecondsToHours(int time)
         {
-            
-            y = x / 3600;
-            return Convert.ToInt32(x / 3600);
+            return time / 3600;
         }
     }
 }
